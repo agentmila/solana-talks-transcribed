@@ -1,0 +1,46 @@
+---
+title: "Breakpoint 2025: Tech Talk: Solana Mobile / Solana Labs (Mike Mobiledev.skr)"
+source: "https://www.youtube.com/watch?v=1SLzWDBt9iY"
+date: "2025-12-12"
+transcribed: "2026-04-27"
+model: "whisper.cpp large-v3"
+language: "en"
+words: 1519
+duration_seconds: 566
+tags: [transcript, breakpoint-2025, solana, conference]
+series: Breakpoint 2025
+series_index: 078
+---
+
+# Breakpoint 2025: Tech Talk: Solana Mobile / Solana Labs (Mike Mobiledev.skr)
+
+**Event:** [Breakpoint 2025](https://www.youtube.com/playlist?list=PLilwLeBwGuK4dz_gqiiDA3GfS094Yr46b)
+**Date:** 2025-12-12
+**Duration:** 9 min
+**Transcription:** 1519 words
+**Model:** whisper.cpp large-v3
+**Playlist position:** 078/199
+
+---
+
+## Transcription
+
+ MIKE YANG: All right. Hey, everyone. My name is Mike, and I'm the dev rel for Solana Mobile. Today, I wanted to talk about our growing developer ecosystem and why the Solana Dapp Store is the best place to launch an app. But first, for those who don't know, I'll explain what Solana Mobile is and what we're doing. Our mission is to bring crypto onto mobile
+ and enable mass adoption. Mobile accounts for 63% of all web traffic and 73% of all e-commerce transactions. I think at this point, most people understand that mobile is really important, and it should be part of a product strategy. But most crypto experiences today are still only built for desktop. Why is that? Well, there are still major roadblocks in crypto's mobile landscape. Apple and Google are gatekeepers to distribution,
+ and they're hostile to crypto apps. This is a real problem for developers. I've talked to a lot of teams who have basically had to abandon their mobile apps because of this hostility. You can't justify time investing into a mobile app if you're not even sure it'll get approved, and you can't experiment with crypto app ideas and crypto features if it'll risk your app's approval. So innovation suffers, and that's been holding back the whole ecosystem. So how are we solving this?
+ In August, our team launched Seeker, a crypto-native mobile phone built to address this problem. We wanted to build an open mobile platform where crypto can thrive. So what makes Seeker crypto-native, and how does it solve these problems? A couple of things. First, every Seeker has the Seed Vault, a built-in hardware wallet for secure storage and transaction signing. Any app on the device can connect to it and request signing with user approval.
+ As a developer, this is huge. Your users can connect to the Seed Vault and receive a seamless signing experience, all without ever leaving the app. It's like having an Apple Pay API available to you at all times, but for crypto transactions. And here's a demo of what that signing experience looks like on Jupyter. Here, the user initiates a swap transaction. Seed Vault draws a bottom sheet. The user approves by double-tapping and then confirming with a fingerprint.
+ The bottom sheet is dismissed, and the transaction is submitted. And we think this is one of the best signing experiences on mobile today. There's no jarring app switches and no janky wallet browsers. It all happens within the app. And this is a big unlock for crypto apps. So that's the wallet experience. Now the second piece. Every Seeker ships with the Slanted App Store, an alternative app store built to be a friendly home for crypto apps.
+ We have no hostile policies towards crypto and no 30% platform tax. As a developer, you can build a mobile app with crypto features and not have to worry about that being a risk to your app. And the Dapp Store is where you'll find distribution. We have over 100,000 Seekers activated across multiple countries around the world. We have over 200 apps published in the Dapp Store today. And these are crypto power users that are actively trying out downloading apps on the Dapp Store. They're signing transactions.
+ They're making purchases, playing games. To this date, we've had over a million app installs on the Dapp Store and over $100 million in economic activity flowing through the Slanted mobile ecosystem. So for developers, the Dapp Store should look like prime real estate. Unlike Apple and Google, where your app is buried alongside millions of other apps, on the Dapp Store, you're competing against a much smaller pool of apps to a higher signal group of users.
+ And especially if it's in the early stages, this is one of the highest value user bases that you can tap into and find distribution. And we've heard a lot of success stories so far from teams launching on the Dapp Store. Moonwalk Fitness is a gamified daily fitness app. And when they launched, they received 12,000 new user signups just in their first week. And later, they went on to achieve all-time highs for daily active users.
+ And these are just two of the many successful launches that we've seen so far. The feedback we've been getting from developers has been pretty clear. They see the Dapp Store as a valuable platform to grow their app and find direct distribution to spendy crypto power users. So how do you actually publish onto the Dapp Store?
+ Let's talk about that process. First step, build an Android app. Seeker is an Android phone, and so the Dapp Store takes Android apps. There isn't any special framework or operating system you need to build for. It's just Android development. And what that means is you can use any standard Android framework, like Kotlin, React Native, Flutter. All that matters is that at the end of the day, you produce an Android APK. And you don't actually even need a Seeker to develop for the Dapp Store.
+ You can test and build against any Android app or even an Android emulator. We provide development tools like the Mock Wallet so you can simulate what the bottom sheet signing experience looks like on the Seed Vault. And one of the most common questions we get is, can I publish a web app on the Dapp Store? The answer is actually yes. Yes, you can. There's an easy process you can do to convert a PWA into an Android app. And to do that, you can use this open source tool called
+ Google. Bubblewrap takes a PWA and then wraps that into an Android app that you can publish onto the Dapp Store. It's just two CLI commands, init and then build, and then it'll generate you that Android APK. There's an app on the Dapp Store called Crypto Fantasy League that actually uses Bubblewrap. And their PWA looks awesome because they optimize it for a mobile browsing experience. Using the app, you can't really tell it's a PWA, and it looks better than a lot of native apps.
+ So this reboot is definitely a viable strategy to get on the Dapp Store quickly without having to build a mobile app from the ground up. And after you finish publishing your app, the last step is to submit it to the Dapp Store. To do this, we recently launched the Publishing Portal, a website where you can sign up for a developer account and handle the entire app submission flow through a nice web UI. On the portal, you'll find a forum where you can enter your app details, add any screenshots or previews, and then upload your APK and submit your app.
+ And finally, after you've submitted your app, all that's left is just app review. How app review works is our team will take a look at the submission, make sure the metadata and the details are correct. We'll do a light QA check. And if all is good, we'll approve the submission, and your app will be submitted to the App Store. We want this process to be as frictionless and simple as possible while also maintaining a bar for quality.
+ So this is a pretty good idea-- or now you have a pretty good idea of how to build for the Dapp Store. For this last section, I wanted to talk about some upcoming opportunities to jump into the Solana mobile ecosystem. First announcement, we're launching a grants program. These grants will cover a variety of things like developer tooling, SDKs, public goods, and also app ideas.
+ So go to solanamobile.com/grants. And on there, you'll find all the information about this program. You'll find an application form to apply for a grant and also a list of existing RFPs. Definitely check this out. And our last announcement, we're going to be launching our second mobile hackathon in Q1 of 2026. Just like last time, this is going to be an opportunity for developers to build an app and compete and win prizes like cash and also
+ get improvements on our Dapp Store. So if you win, your app can get higher visibility. Stay tuned for more information here. And here are just some resources. So everything I talked about in this presentation, everything about our walled SDKs, how to publish on the Dapp Store, documentation, that can all be found on docs.solanamobile.com. And if you're in the audience and you're thinking about building an app or the Dapp Store sounds interesting to you, maybe you don't even have an app yet
+ and maybe you just have a web app and you're interested in bubble wrap. Or maybe you already have an existing app that's on the Play Store. Please come find me or any of our team members. We have a booth downstairs where we are giving away free Seekers. So come by, find us, talk to us. We're happy to answer your questions and help you guys get onto the Dapp Store. Thank you so much.
